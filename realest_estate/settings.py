@@ -62,7 +62,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'realest_estate.urls'
 CORS_ALLOW_ALL_ORIGINS = True
-CSRF_COOKIE_SECURE = True
+# CSRF_COOKIE_SECURE = True
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
