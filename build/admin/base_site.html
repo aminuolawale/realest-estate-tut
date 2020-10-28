@@ -10,5 +10,6 @@
 {% endblock %}
 
 {% block extrastyle %}
+{% csrf_token %}
 <link rel="stylesheet" href="{% static 'css/admin.css' %}"/>
 {% endblock %}
