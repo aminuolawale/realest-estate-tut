@@ -1,4 +1,4 @@
-{% extends "admin/base.html"%}
+{% extends "admin/base.html" %}
 {% load static %}
 
 {% block branding %}
@@ -10,6 +10,5 @@
 {% endblock %}
 
 {% block extrastyle %}
-{% csrf_token %}
 <link rel="stylesheet" href="{% static 'css/admin.css' %}"/>
 {% endblock %}
