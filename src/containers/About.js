@@ -40,7 +40,7 @@ const About = () => {
       }
     };
     getRealtors();
-  });
+  }, []);
 
   const getAllRealtors = () => {
     const allRealtors = [];
